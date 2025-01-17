@@ -1,0 +1,33 @@
+@font-face {
+    src: url("../stylse/fonts/ferry_black.otf");
+    font-family: ferry_black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: #ecf3ff;
+    background-image: url('../images/weather.png');
+    background-size: cover;
+    font-family: ferry_black;
+    font-size: 1.5rem;
+    height: 80px;
+    text-shadow: 9px -5px 7px rgb(72 96 66 / 51%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 414px) {
+    header {
+        font-size: 1rem;
+    }
+}

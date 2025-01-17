@@ -1,0 +1,64 @@
+.forecast {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 0px;
+
+}
+
+.forecast-item-1 {
+    width: 700px;
+}
+
+.header-text {
+    margin-left: 26%;
+    margin-right: 15%;
+    padding: 0px;
+    text-align: center;
+}
+
+.forecast-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecast-item {
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.color-cool {
+    border: solid #cfe2ff;
+    background-color: #cfe2ff57;
+}
+
+.color-warm {
+    border: solid #ffc107b0;
+    background-color: #ffc1073b;
+}
+
+@media (max-width: 768px) {
+    .forecast-item-1 {
+        width: 500px;
+    }
+
+    .forecast-item {
+        width: 80%;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 414px) {
+    .forecast-item-1 {
+        width: 350px;
+    }
+
+    .forecast-item {
+        width: 100%;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+}
